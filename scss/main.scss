@@ -9,17 +9,17 @@
     box-sizing: border-box;
 }
 
-@import '../variables/tipografia';
-@import '../variables/extend';
-@import '../variables/mixims';
+@import './variables/extend';
+@import './variables/mixims';
+@import './variables/tipografia';
 
-@import '../secciones/animaciones';
-@import '../secciones/contacto';
-@import '../secciones/index';
-@import '../secciones/inspo';
-@import '../secciones/nosotros';
-@import '../secciones/productos';
-@import '../secciones/servicios';
+@import './secciones/animaciones';
+@import './secciones/contacto';
+@import './secciones/index';
+@import './secciones/inspo';
+@import './secciones/nosotros';
+@import './secciones/productos';
+@import './secciones/servicios';
 
 /* HEADER DE TODAS LA PAGINAS */
 
