@@ -196,58 +196,42 @@ main {
   text-align: center;
   color: #aa88c6; }
 
-.contenedor-nosotros h2 {
-  font-size: 40px; }
+.container-products {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px; }
 
-.contenedor-nosotros h2 {
-  text-align: center;
-  font-size: 25px;
-  margin-top: 30px;
-  color: #dba1be; }
-
-.contenedor-nosotros h3 {
-  text-align: center;
-  font-size: 22px;
-  margin-top: 15px;
-  color: #dba1be; }
-
-.contenedor-programs {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 40px; }
-
-.nosotros h1 {
-  text-align: center;
-  background-color: #e8dff0;
+.product {
+  border: 2px solid #fbf6f6;
+  border-radius: 10px;
   padding: 20px;
-  color: #fefefe; }
-
-.program {
-  width: 30%; }
-
-.program img {
-  width: 100%; }
-
-.program p {
-  font-size: 20px;
-  line-height: 24px; }
-
-.program2 {
-  width: 30%; }
-
-.program2 h3 {
   text-align: center;
-  color: #c6a5e1; }
+  cursor: pointer; }
 
-.program2 p {
-  background-color: #f0eaf5;
-  border-radius: 15px;
-  padding: 10px;
-  font-size: 14px; }
-
-.nosotros p {
+.product i {
+  color: #cf8dc3;
   text-align: center;
-  color: #a682c4; }
+  cursor: pointer; }
+
+.product__tittle {
+  text-align: center;
+  color: #dba1be;
+  font-size: 16px;
+  padding: 5px; }
+
+.product__price {
+  color: #cf8dc3;
+  font-weight: bold;
+  text-align: center; }
+
+.product img:hover {
+  transform: scale(1.1); }
+
+.shop h2 {
+  font-size: 30px;
+  font-family: 'satisfy';
+  color: #d4c6b5; }
 
 .grilla {
   display: grid;
