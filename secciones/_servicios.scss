@@ -1,3 +1,5 @@
+
+
 .grilla {
     display: grid;
     grid-template-columns: 7fr 8fr 8fr 5fr;
@@ -14,14 +16,14 @@
 
 .aside {
     grid-area: aside;
-    background-image: url(/imagenes/aside.jpeg);
+    background-image: url(../imagenes/aside.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
     align-items: center;
     display: flex;
     background-position: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 
@@ -29,7 +31,7 @@
 
 .section1 {
     grid-area: section1;
-    background-image: url(/imagenes/section1.jpg);
+    background-image: url(../imagenes/section1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -66,7 +68,7 @@
 
 .section3 {
     grid-area: section3;
-    background-image: url(/imagenes/section3.jpg);
+    background-image: url(../imagenes/section3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
