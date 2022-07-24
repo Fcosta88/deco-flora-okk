@@ -8,6 +8,7 @@
     font-family: "poppins";
     box-sizing: border-box;
 }
+
 @import '../variables/extend';
 @import '../variables/mixims';
 @import '../variables/tipografia';
@@ -16,7 +17,6 @@
 @import '../secciones/contacto';
 @import '../secciones/index';
 @import '../secciones/inspo';
-@import '../secciones/mediaquery';
 @import '../secciones/nosotros';
 @import '../secciones/productos';
 @import '../secciones/servicios';
@@ -102,6 +102,10 @@ footer {
     color: rgb(0, 0, 0);
 }
 
+.redes h6 {
+    font-size: 14px;
+}
+
 .footer-icon {
     color: rgb(249, 236, 219);
     font-size: 40px;
@@ -171,18 +175,8 @@ footer {
 
 
     /* Media Productos */
-    .grilla {
-        display: grid;
-        grid-template-columns: 5fr 5fr 3fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-areas:
-            "section1 section1 section1"
-            "section2 section2 section2"
-            "section3 section3 section3";
-        background-color: #f6f4ec;
-        color: #f9f0ee;
-        font-weight: bold;
-    }
+
+
 
     .container-products {
         display: grid;
@@ -258,6 +252,152 @@ footer {
 
     }
 
+    .program2 {
+        width: 60%;
+    }
+
+    .program2 h3 {
+        font-size: 20px;
+    }
+
+    .program2 p {
+        font-size: 16px;
+    }
+
+    .program img {
+        width: 110%;
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+
+
+
+    .section2 p {
+        font-family: 'lobster';
+        color: #5b5b50;
+        font-size: 18px;
+    }
+
+    .section3 h4 {
+        font-size: 16px;
+    }
+
+    .section3 p {
+        font-family: $textoPrincipalh2;
+        color: #d6d6c2;
+        font-size: 18px;
+        background-color: #7e7e6f;
+        opacity: 0.9;
+        padding: 10px;
+    }
+.grilla {
+    
+    background-color: #f6f4ec;
+    color: #f9f0ee;
+    font-weight: bold;
+
+}
+.grilla h4 {
+    font-size: 14px;
+}
+    .section1 {
+        grid-area: section1;
+        background-image: url(../imagenes/lamp10.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        color: #fbfafb;
+        font-size: 15px;
+        padding: 10px;
+        margin: 5px;
+        width: 100%;
+}
+
+
+    .section2 {
+        grid-area: section2;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        color: #332831;
+        font-size: 18px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .section3 {
+        grid-area: section3;
+        background-image: url(../imagenes/section3.jpg);
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
+        color: #faf1f8;
+        font-size: 18px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .section1 h4 {
+        font-family: $textoPrincipalh2;
+        font-size: 30px;
+        color: #e0c4cf;
+        text-align: center;
+    }
+
+    .section1 p {
+        font-family: $textoPrincipalh2;
+        font-size: 18px;
+        background-color: #5b5b50;
+        padding: 5px;
+        opacity: 0.8;
+        color: #f2e3ed;
+
+    }
+
+    .section2 h4 {
+        font-family: $textoPrincipalh2;
+        color: #5b5b50;
+        font-size: 18px;
+    }
+
+    .section2 p {
+        font-family: 'lobster';
+        color: #5b5b50;
+        font-size: 18px;
+    }
+
+    .section3 h4 {
+        font-size: 20px;
+    }
+
+    .section3 p {
+        font-family: $textoPrincipalh2;
+        color: #d6d6c2;
+        font-size: 20px;
+        background-color: #7e7e6f;
+        opacity: 0.9;
+        padding: 10px;
+    }
+
+    .section2 img {
+        width: 100%;
+    }
+
+
+
+
 
     @media (max-width:450px) {
 
@@ -297,18 +437,7 @@ footer {
 
         /* Media Servicios */
 
-        .grilla {
-            display: grid;
-            grid-template-columns: 3fr 5fr 5fr 3fr;
-            grid-template-rows: 1fr 1fr 1fr;
-            grid-template-areas:
-                "aside section1 section1 section1"
-                "aside section2 section2 section2"
-                "aside section3 section3 section3";
-            background-color: #f6f4ec;
-            color: #f9f0ee;
-            font-weight: bold;
-        }
+
 
 
 
@@ -365,6 +494,19 @@ footer {
 
     .program p {
         font-size: 16px;
+    }
+
+    .program2 {
+        width: 50%;
+    }
+
+    /* Media Servicios */
+
+
+    .section2 p {
+        font-family: 'lobster';
+        color: #5b5b50;
+        font-size: 20px;
     }
 
 }

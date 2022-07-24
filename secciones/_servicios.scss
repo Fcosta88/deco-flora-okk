@@ -31,8 +31,9 @@
 
 .section1 {
     grid-area: section1;
-    background-image: url(../imagenes/section1.jpg);
+    background-image: url(../imagenes/lamp10.jpg);
     background-size: cover;
+    background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
@@ -40,7 +41,7 @@
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
-    color: #fbfafb;
+    color: #f0d9f0;
     font-size: 15px;
     padding: 10px;
     margin: 5px;
@@ -51,10 +52,6 @@
 
 .section2 {
     grid-area: section2;
-    background-image: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
@@ -77,9 +74,67 @@
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
-    color: #faf1f8;
+    color: #e5c3d1;
     font-size: 18px;
     padding: 10px;
     margin: 5px;
 }
 
+.section1 h4 {
+    font-family: $textoPrincipalh2;
+    font-size: 70px;
+    color: #b1a98a;
+}
+
+.section1 p {
+    font-family: $textoPrincipalh2;
+    font-size: 25px;
+    background-color: #5b5b50;
+    padding: 15px;
+    opacity: 0.8;
+    color: #ebe7d5;
+
+}
+
+.section2 h4 {
+    font-family: $textoPrincipalh2;
+    color:  #5b5b50;
+}
+.section2 p {
+    font-family: 'lobster';
+    color: #5b5b50;
+    font-size: 25px;
+}
+ .section3 h4 {
+    font-size: 30px;
+ }
+.section3 p {
+    font-family: $textoPrincipalh2; 
+    color: #d6d6c2;
+    font-size: 20px;
+    background-color: #7e7e6f;
+    opacity: 0.9;
+    padding: 10px;
+}
+
+.aside h4 {
+    background-color: #7e7e6f;
+    opacity: 0.5;
+}
+
+.subir_arriba {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #dba7c1;
+    color: #efd0df;
+    border-radius: 50px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: right;
+    position: fixed;
+    bottom: 250px;
+    cursor: pointer;
+    margin: 5px;
+}
